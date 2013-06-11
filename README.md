@@ -3,8 +3,9 @@ sitefinity
 
 Telerik Sitefinity add-ons developed at PayScale
 
-/Controls/BlogCategoriesControl.cs:
-/Controls/BlogArchiveControl.cs:
+/Controls/BlogCategoriesControl.cs & /Controls/BlogArchiveControl.cs:
+---------------------------------------------------------------------
+
 The built-in controls for showing Archive or Categories links show you links based on all blog posts on your site (or at least in the provider).
 We have two blogs (http://www.payscale.com/career-news and http://www.payscale.com/compensation-today/) served from the same custom provider, so
 when we added an ArchiveControl to the career-news page, it was counting blog posts from the compensation-today blog.  There wasn't a way to 
